@@ -11,20 +11,22 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class CreateNewPassword extends AppCompatActivity {
+public class PasswordChangedActivity extends AppCompatActivity {
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_create_new_password);
-        Button resetBtn = findViewById(R.id.resetBtn);
-        resetBtn.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_password_changed);
+        Button lgnBtn = findViewById(R.id.lgnBtn);
+        lgnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(CreateNewPassword.this, PasswordChangedActivity.class);
+                Intent intent = new Intent(PasswordChangedActivity.this, LoginScreenActivity.class);
                 startActivity(intent);
+
+
             }
         });
+
     }
 }

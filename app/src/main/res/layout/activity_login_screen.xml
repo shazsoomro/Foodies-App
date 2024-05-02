@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreenActivity"
+    android:background="@drawable/log_in"
+    android:orientation="vertical"
+    android:padding="15dp"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+
+        android:src="@drawable/logokababking"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:paddingTop="15dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#222222"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your emails and password"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:textColor="#555555"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:layout_marginTop="40dp"
+        android:textSize="14sp"
+        android:textColor="#222222"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F6F6"
+        android:hint="Enter Email"
+        android:textColorHint="#A9A9A9"
+        android:textSize="12sp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="8dp"
+        android:drawableTint="#A9A9A9"
+        android:layout_marginTop="8dp"
+        android:inputType="textEmailAddress"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        android:textColor="#222222"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F6F6"
+        android:hint="Enter Password"
+        android:textColorHint="#A9A9A9"
+        android:textSize="12sp"
+        android:padding="15dp"
+        android:drawableLeft="@drawable/lock"
+        android:drawableRight="@drawable/eye"
+        android:drawablePadding="8dp"
+        android:drawableTint="#A9A9A9"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/forgotBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        android:layout_gravity="right"
+        android:textColor="#181725"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#E02027"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don’t have an account? "
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:textColor="#181725"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="Signup "
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:textColor="#53B175"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

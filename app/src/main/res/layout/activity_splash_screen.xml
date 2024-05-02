@@ -12,6 +12,12 @@
 <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/logokababking"/>
+        android:visibility="gone"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/splash_anim"
+        app:lottie_autoPlay="true" />
 
 </LinearLayout>

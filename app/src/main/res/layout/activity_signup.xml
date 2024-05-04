@@ -8,8 +8,7 @@
     tools:context=".SignupActivity"
     android:background="@drawable/log_in"
     android:orientation="vertical"
-    android:padding="15dp"
-    android:layout_margin="15dp"
+    android:padding="30dp"
     >
     <ImageView
         android:layout_width="100dp"
@@ -115,6 +114,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign up"
+        android:textColor="@color/white"
         android:layout_marginTop="30dp"
         android:backgroundTint="#E02027"
         android:textSize="20sp"
@@ -140,6 +140,7 @@
             android:layout_gravity="center"
 
             android:text="SignIn "
+            android:padding="10dp"
             android:layout_marginTop="8dp"
             android:textSize="14sp"
             android:textColor="#53B175"/>

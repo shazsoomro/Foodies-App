@@ -26,5 +26,13 @@ public class LoginScreenActivity extends AppCompatActivity {
             }
         });
 
+        TextView signupbtn = findViewById(R.id.signupbtn);
+        signupbtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginScreenActivity.this, SignupActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
